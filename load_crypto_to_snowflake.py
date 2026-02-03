@@ -41,8 +41,8 @@ try:
     # ---------------------------
     conn = snowflake.connector.connect(
         user="SREETEJA0908",             # your Snowflake username
-        password="Sreetejareddy@0908",   # your Snowflake password
-        account="onnqpxp-ovc21017",      # your account (from Snowflake URL)
+        password="aa",   # your Snowflake password
+        account="aa",      # your account (from Snowflake URL)
         warehouse="COMPUTE_WH",          # replace with your warehouse name
         database="CRYPTO_DB",
         schema="ANALYTICS",
@@ -76,3 +76,4 @@ except Exception as e:
 # Keep console open in VS Code / Windows
 # ---------------------------
 input("Press Enter to exit...")
+
